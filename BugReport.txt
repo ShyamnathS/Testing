@@ -1,0 +1,20 @@
+
+Bug Report - HR Portal QA Mini Project
+
+Bug ID: BR001
+Module: Login
+Summary: Invalid credentials not handled properly
+Steps: Enter valid username and wrong password
+Expected: Show "Invalid credentials"
+Actual: No message shown
+Severity: High
+Status: Open
+
+Bug ID: BR002
+Module: Add Employee
+Summary: Missing first name still allows save
+Steps: Leave First Name empty and click Save
+Expected: Show "Name is required"
+Actual: Page navigates with no error
+Severity: High
+Status: Open

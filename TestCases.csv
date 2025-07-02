@@ -1,0 +1,11 @@
+TC ID,Module,Test Scenario,Steps,Expected Result,Severity,Status
+TC01,Login,Valid Login,Enter valid username/password and click Login,Redirect to dashboard/homepage,High,NA
+TC02,Login,Invalid Password,Enter valid username and wrong password → click Login,Show "Invalid credentials",High,NA
+TC03,Login,Empty Fields,Leave both fields empty → click Login,Show validation message,High,NA
+TC04,View Employees,List is visible,Login → Go to Employee List page,Show table of employees,Medium,NA
+TC05,Add Employee,Valid input,Fill all fields and click Add,New employee appears in list,High,NA
+TC06,Add Employee,Missing Required Field,Leave "Name" empty → Click Add,Show "Name is required" error,High,NA
+TC07,Edit Employee,Update department,Click Edit → change Department → Save,Department is updated,Medium,NA
+TC08,Delete Emp.,Delete employee,Click "Delete" button on employee row,Confirm dialog → employee removed,Medium,NA
+TC09,Add Employee,Invalid Characters in Name,Enter "123@@@" in Name field → Click Add,Show "Invalid characters" error,Medium,NA
+TC10,Login,SQL Injection Attempt,Enter "' OR '1'='1" as username,Show error → should not log in,High,NA

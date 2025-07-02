@@ -1,0 +1,18 @@
+
+Project Summary: HR Portal QA Automation
+
+This mini project tests core HR functionalities:
+- Login (Valid, Invalid, Edge)
+- View/Add/Edit/Delete Employee
+- Input Validation
+- Error Handling
+
+Tools:
+- Selenium WebDriver (Java)
+- ChromeDriver
+- Manual Testing (Excel TestCases + BugReports)
+
+Outcome:
+- 10 test cases
+- 2 bugs found
+- 7 test cases automated
